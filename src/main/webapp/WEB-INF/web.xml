@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.4"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<display-name>sns</display-name>
+	<description>社区</description>
+	<mime-mapping>
+		<extension>sql</extension>
+		<mime-type>text/plain</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>zip</extension>
+		<mime-type>application/zip</mime-type>
+	</mime-mapping>
+	
+	<!-- 单点登录过滤器 -->
+	<filter>
+		<filter-name>Agent</filter-name>
+		<filter-class>com.tmwsoft.common.sso.SsoFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Agent</filter-name>
+		<url-pattern>/SsoLogin.action</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>ERROR</dispatcher>
+	</filter-mapping>
+	
+	<filter>
+		<filter-name>AccessFilter</filter-name>
+		<filter-class>com.tmwsoft.sns.web.filter.AccessFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>/attachment/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>/data/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>/source/crons/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>/source/task/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>*.properties</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>InitFilter</filter-name>
+		<filter-class>com.tmwsoft.sns.web.filter.InitFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>InitFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>AttachmentFilter</filter-name>
+		<filter-class>com.tmwsoft.sns.web.filter.AttachmentFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AttachmentFilter</filter-name>
+		<url-pattern>/a/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>TemplateFilter</filter-name>
+		<filter-class>com.tmwsoft.sns.web.filter.TemplateFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>TemplateFilter</filter-name>
+		<url-pattern>/template/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>GZIPFilter</filter-name>
+		<filter-class>com.tmwsoft.sns.web.filter.GZIPFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>GZIPFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>ContentFilter</filter-name>
+		<filter-class>com.tmwsoft.sns.web.filter.ContentFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ContentFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>ContentFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>CommonFilter</filter-name>
+		<filter-class>com.tmwsoft.sns.web.filter.CommonFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CommonFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CommonFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+		<init-param>
+			<param-name>logLevel</param-name>
+			<param-value>WARN</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/classes/struts-config.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<init-param>
+			<param-name>detail</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.action</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CometServlet</servlet-name>
+		<servlet-class>com.tmwsoft.sns.web.servlet.CometServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CometServlet</servlet-name>
+		<url-pattern>/servlet/comet</url-pattern>
+	</servlet-mapping>
+	
+	<error-page>
+		<error-code>403</error-code>
+		<location>/errors/403.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/errors/404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/errors/500.jsp</location>
+	</error-page>
+	
+	<welcome-file-list>
+		<welcome-file>portal.action</welcome-file>
+	</welcome-file-list>
+</web-app>

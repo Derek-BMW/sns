@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+	
+	<language type="zh_CN" using="true">
+		<item key="inefficacy_save" value="请先上传图片或用摄像头拍照\21" />
+		<item key="camera_muted" value="无法连接到活动摄像头\21" />
+		<item key="camera_not_exist" value="摄像头设备不可用\21" />
+		<item key="face_save_success" value="头像保存成功\21" />
+		<item key="face_save_error" value="头像保存过程中发生网络错误\2C\20请重试\21" />
+		<item key="face_saving" value="正在保存头像\2C\20请稍候..." />
+		<item key="face_save_ioerror" value="头像保存过程中发生I/O错误\21" />
+		<item key="upload_volume_1M" value="请重新选择体积小于1M的图片\21" />
+		<item key="upload_type_label" value="图片文件" />
+		<item key="upload_type_error" value="文件格式错误\21\20请选择jpg、gif、png格式的图片文件" />
+		<item key="upload_uploading" value="图片上传中\2C请稍候..." />
+		<item key="upload_ioerror" value="文件上传过程中出现I/O错误\21" />
+		<item key="upload_httperror" value="文件上传过程中出现HTTP错误\21" />
+		<item key="upload_securityerror" value="文件上传过程中出现安全错误\21" />
+		<item key="upload_progress" value="文件已上传" />
+		<item key="please_select_region" value="请选择合适区域" />
+		<item key="browse_file_cancel" value="取消选择文件！" />
+		<item key="callback_uploaded_ioerror" value="调用已上传图片过程中发生错误\21" />
+		<item key="uploaded_invalid_type" value="上传的文件不是图片\21" />
+		<item key="preview_note" value="头像编辑成功\21\20以下是三种尺寸的预览图片\2C\20请按\3Cfont\20color\3D\22\23ff0000\22\3E确定按钮\3C/font\3E提交\21" />
+		<item key="gif_submitting" value="动画保存中\2C\20请耐心等候..." />
+		<item key="gif_reopen" value="打开动画文件过程中发生错误\2C\20请重试..." />
+		<item key="gif_frame_overflow" value="图片帧数过多\2C\20请重新选择一张简单一些的图片..." />
+		<item key="button_browse" value="选择图片" />
+		<item key="button_camera_screen" value="拍摄照片" />
+		<item key="button_reset" value="重置" />
+		<item key="button_return" value="返回重新编辑" />
+		<item key="button_save" value="预览头像" />
+		<item key="button_submit" value="确\20定" />
+		<item key="tab_upload" value="上传图片" />
+		<item key="tab_camera" value="使用摄像头" />
+		<item key="note_right_text" value="选择合适的区域" />
+		<item key="note_right_move" value="移动" />
+		<item key="note_right_zoom" value="缩放" />
+		<item key="note_right_face" value="头像预览" />
+		<item key="note_main" value="请从计算机中选择一张图片作为头像" />
+	</language>
+	
+	<language type="zh_HK" using="false">
+		<item key="inefficacy_save" value="請先上傳圖片或用攝像頭拍照\21" />
+		<item key="camera_muted" value="無法連接到活動攝像頭\21" />
+		<item key="camera_not_exist" value="攝像頭設備不可用\21" />
+		<item key="face_save_success" value="頭像保存成功\21" />
+		<item key="face_save_error" value="頭像保存過程中發生網絡錯誤\2C\20請重試\21" />
+		<item key="face_saving" value="正在保存頭像\2C\20請稍候..." />
+		<item key="face_save_ioerror" value="頭像保存過程中發生I/O錯誤\21" />
+		<item key="upload_volume_1M" value="請重新選擇體積小于1M的圖片\21" />
+		<item key="upload_type_label" value="圖片文件" />
+		<item key="upload_type_error" value="檔案格式錯誤\21\20請選擇jpg、gif、png格式的圖片檔案" />
+		<item key="upload_uploading" value="圖片上載中\2C請稍候..." />
+		<item key="upload_ioerror" value="文件上載過程中出現I/O錯誤\21" />
+		<item key="upload_httperror" value="文件上載過程中出現HTTP錯誤\21" />
+		<item key="upload_securityerror" value="文件上載過程中出現安全錯誤\21" />
+		<item key="upload_progress" value="檔案已上載" />
+		<item key="please_select_region" value="請選擇合適區域" />
+		<item key="browse_file_cancel" value="放棄選擇檔案\21" />
+		<item key="callback_uploaded_ioerror" value="調用已上載圖片過程中發生錯誤\21" />
+		<item key="uploaded_invalid_type" value="上載的檔案不是圖片\21" />
+		<item key="preview_note" value="頭像編輯成功\21\20以下是三種尺碼的預覽圖片\2C\20請按\3Cfont\20color\3D\22\23ff0000\22\3E確定按鈕\3C/font\3E提交\21" />
+		<item key="gif_submitting" value="動畫保存中\2C\20請耐心等候..." />
+		<item key="gif_reopen" value="打開動畫文檔過程中發生錯誤\2C\20請重試..." />
+		<item key="gif_frame_overflow" value="圖片幀數過多\2C\20請重新選擇一張簡單一些的圖片..." />
+		<item key="button_browse" value="選擇圖片" />
+		<item key="button_camera_screen" value="拍攝照片" />
+		<item key="button_reset" value="重置" />
+		<item key="button_return" value="返回重新編輯" />
+		<item key="button_save" value="預覽頭像" />
+		<item key="button_submit" value="確\20定" />
+		<item key="tab_upload" value="上載圖片" />
+		<item key="tab_camera" value="使用攝像頭" />
+		<item key="note_right_text" value="選擇合適的區域" />
+		<item key="note_right_move" value="移動" />
+		<item key="note_right_zoom" value="縮放" />
+		<item key="note_right_face" value="頭像預覽" />
+		<item key="note_main" value="請從計算機中選擇一張圖片作為頭像" />
+	</language>
+</strings>

@@ -1,0 +1,15 @@
+/* Use this CSS file if you need to support IE 7 and IE 6. */
+
+.icon-fire { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0021;'); font-family: 'IcoMoon'}
+.icon-user { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0022;'); font-family: 'IcoMoon'}
+.icon-tag { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0023;'); font-family: 'IcoMoon'}
+.icon-film { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0025;'); font-family: 'IcoMoon'}
+.icon-copy { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0026;'); font-family: 'IcoMoon'}
+.icon-newspaper { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0024;'); font-family: 'IcoMoon'}
+.icon-diamond { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0027;'); font-family: 'IcoMoon'}
+.icon-globe { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0028;'); font-family: 'IcoMoon'}
+.icon-eye { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x0029;'); font-family: 'IcoMoon'}
+.icon-trophy { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x002a;'); font-family: 'IcoMoon'}
+.icon-price { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x002b;'); font-family: 'IcoMoon'}
+.icon-chart-alt { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x002c;'); font-family: 'IcoMoon'}
+.icon-document-stroke { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#x002d;'); font-family: 'IcoMoon'}

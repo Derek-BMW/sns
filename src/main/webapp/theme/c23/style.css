@@ -1,0 +1,59 @@
+/*
+[name]风驰电掣[/name]
+*/
+/* 全局 */
+body { padding:0 0 50px; background:url(images/top_bg.jpg) repeat-x center top; background-color:#000; font-family:Verdana, Geneva, sans-serif; color:#979797; }
+body, th, td, input, select, textarea, button{ font-family:Verdana, Geneva, sans-serif;}
+#main { width:900px; background: url(); }
+.showmessage { background:#424242; _background:#424242; color:#DDD; }
+/* 模块 */
+a { color:#2C5F69; }
+h1, h2, h3, h4, #ubar h2, .title { color:#2C5F69; }
+.gray, .gray a { color:#979797; }
+.submit { background:#424242; color:#FFF; }
+.borderbox,#space_photo img,.avatar48 img,.magicavatar{ border:1px solid #1A1A1A;}
+.comments_list li,.line_list li,#spaceindex_name{ border-bottom:1px solid #1A1A1A;}
+#mood_statusinput{ background:none;}
+textarea,#mood_statusinput textarea{ border:1px solid #1A1A1A; background:#000000; color:#2C5F69;}
+.magicavatar{background:#000000; }
+/* 头 */
+#header {background:url(images/top_w.png) no-repeat; width:900px; }
+#header .headerwarp { background: none; height:160px; color:#2C5F69;font-family:"微软雅黑";  }
+
+#header .space_head_title h1{ font-size: 2em; padding: 0 0 10px 0; color:#2C5F69; font-weight:normal; }
+#header .space_head_title h1 a{ color:#2C5F69 }
+#header .space_head_title p{ color:#2C5F69; background-color:none; overflow: hidden;  }
+#header .space_head_title a{ color:#2C5F69; }
+
+#header .headermenu { width:1000px; height:61px; background:url(); }
+#header .menu { clear:both;padding: 20px 0 20px 65px; line-height:20px; margin:0 63px; background:url(images/top1.png) no-repeat left top;}
+#header .menu li a { color:#fff; font-size: 14px; font-family:"微软雅黑"; text-shadow:0px 0px 2px #000;}
+#header .menu li { border-left: 0px solid #fff; padding:0 10px; }
+
+/* 身 */
+.nav_topfixed #wrap{ background:none;}
+#wrap{width:900px; padding:0 50px;}
+#space_page #content{ width:670px;}
+#mainarea { width: 890px; }
+#space_page, #mainarea { background:none; }
+#spaceindex_note,.gray, .gray a,#space_mymenu em,.sidebox p.gray,#footer, #footer a,.comments_list .detail{ color:#979797;}
+/* 首页模块标题栏 */
+#ubar h2,
+#space_page .feed_header,
+#space_page .sidebox h2.title { padding: 0 10px; height: 30px; line-height: 30px; border-bottom: 1px solid #1A1A1A; color:#2C5F69; background-color:none; background-repeat:; background-position: ; background-image:url(); }
+/* 清除背景 */
+.ulist,
+.tabs_header,
+#space_page .feed li,
+#space_page .comments_list li,
+.tabs_header ul.tabs li.active a span,
+.tabs_header ul.tabs li a span { background: none; }
+/* 内容导航条 */
+.tabs_header ul.tabs li.active a {  color:#000; }
+.tabs_header ul.tabs li a { border: 1px solid #DDE5D9; border-bottom: none; background: #EFF3ED; color:#000; }
+.tabs_header ul.tabs li.null a { border: 0; }
+.tabs_header { height: 31px; }
+
+/* 脚 */
+#footer { background-color:none; width:1000px; margin:0 auto; }
+#footer,#footer a { color:#979797;}

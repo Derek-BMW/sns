@@ -1,0 +1,131 @@
+#home{  overflow: hidden; }
+
+#wrap{ width:990px; margin:0 auto; background:#fff; border-radius:10px;}
+.nbox{  position: relative; width: 990px; margin: 0px auto; overflow: hidden; }
+.nbox .gray, .nbox .gray a { color: #aaa; }
+.nbox_side_bg{ border:5px solid #EDEDED;}
+.ntitle a{color:#fff; }
+	.ntitle{ padding: 0 10px; height: 32px; line-height: 32px; color: #333; font-size: 12px; }
+		.footerbar .ntitle { margin: 0; height: 25px; line-height: 25px; font-size: 12px; }
+	.ntitle a{ font-weight: normal; font-size: 12px; }
+		.ntl{ float: left; padding: 0 0 0 30px; background: transparent url(image/nlr.gif) no-repeat left top; }
+		.ntr{ float: right;  padding: 0 30px 0 0;  background: transparent url(image/nlr.gif) no-repeat right center;}
+	.nbox_left{ float: left; margin: 10px 2px 0 10px; width:734px; overflow: hidden; }
+	.nbox_c{ margin: 0 0 10px 0; padding: 1px; width: 720px; border: 1px solid #DDD; overflow: hidden; }
+	.nbox_c_revision{ float: left; margin: 0 10px 0 0; padding: 1px; width:730px; w\idth: 966px; border: 1px solid #DDD; overflow: hidden; }
+		.nbox_l{ float: left; margin: 0 20px 0 0; width:360px; }
+			.nbox_l .showpic{ margin: 0 0 10px; width: 360px; height:220px; overflow: hidden; }
+				.nbox_l .showpic img { width: 360px; }
+		.nbox_r{ float: left; width:350px; }
+		.nbox_c .ntitle{background:url(image/bg_title1.png) no-repeat; height:32px; line-height:32px; color:#fff; padding:0 10px 0 15px;}
+		.nbox_c_revision .ntitle{ padding: 0 10px; background: #EEE; _padding-top:10px;}
+		
+	.nbox_s{ float: left; width:230px; margin: 10px 0px 0px 0px; }
+	.side_rbox { margin: 0 0px 10px 0; padding: 1px; border: 1px solid #DDD; border-radius:3px; }
+		.side_rbox .ntitle {background:url(image/bg_title2.png) no-repeat; height:28px; line-height:28px; color:#fff; padding:0 10px 0 15px; width:193px; margin:0 auto;}
+		.side_rbox_w { background-position: -920px; }
+			.side_rbox_w .side_rbox_c { background-position: -1380px 100%; }
+	
+	.bloglist { padding: 10px 0 0 10px; height: 290px; line-height: 150%; overflow: hidden;}
+	.bloglist li { float: left; margin: 0 9px 9px 0; width: 162px; padding:3px; }
+		.bloglist li:hover{ background:#F7F7F7;}		
+		.bloglist h3{ margin: 0 0 5px; height: 20px; font-size: 12px; overflow: hidden; }
+		.bloglist p.message { margin: 0 0 5px 0; padding: 0; height: 36px; color: #666; overflow: hidden; }
+		.bloglist .nhot{ float: right; color: #EF9822; }
+		.bloglist .nhot a{ color: #EF9822; }
+	
+	.hot_bloglist { height: 190px; overflow: hidden; }
+		.hot_bloglist table{ width: 100%; }
+		.hot_bloglist td{ padding: 5px 10px; height: 20px; background: #fff; line-height: 20px; overflow: hidden; }
+		.hot_bloglist .color_row td{ background: #f7f7f7; }
+		.hot_bloglist .ttopic a{white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width:300px; display:block; height:20px; }
+	.doinglist { margin-top: -1px; height: 445px; width:220px; overflow:hidden; }
+		.doinglist .s_avatar img { margin-bottom: -2px; width: 20px; height: 20px; }
+		.doinglist li { padding: 5px 10px; width: 190px; w\idth:190px; border-bottom: 1px dashed #EEE; color: #666; line-height: 135%; overflow: hidden; }
+		.doinglist p.message { margin-top: 5px; width: 100%; height: 24px; line-height: 24px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-family: Tahoma, "sans-serif"; }
+		.doinglist .face{ vertical-align: middle; }
+		.dot{ padding: 0 20px 0 0; background: url(image/reply.gif) no-repeat 100% 0; }
+	.d_avatar{ float: left; margin: 0 10px 0 0;}
+	.d_avatar img{ width: 48px; height: 48px; }
+	
+	#photolist { padding-bottom: 8px; border: 1px solid #E1E1E1; height: 340px; width: 967px; padding:1px; background: #F7F7F7; margin-bottom:40px;}
+		#photolist .ntitle { background:url(image/bg_title3.png) no-repeat; height:32px; line-height:32px; color:#fff; padding:0 10px 0 15px; }
+		#spics_wrap { margin: 10px 32px; width: 904px; overflow: hidden; position: relative; }
+		#spics { }
+		#spics li { float: left; width: 128px; height: 140px; border-left: 1px solid #E1E1E1; text-align: center;overflow: hidden; margin-left:-1px; margin-bottom:10px; }
+			#spics .spic_img { position: relative; }
+				#spics .spic_img a { display: block; margin-bottom: 5px; width: 128px; height: 100px; line-height: 100px; overflow: hidden; text-decoration: none !important; }
+					#spics li strong { position: absolute; left: 14px; display: block; padding: 0 4px; background: #CCC; color: #FFF; font-weight: 400; line-height: 20px; }
+						#spics li a:hover strong { background: #F00; }
+					#spics .spic_img img {  }
+		#spics p { line-height: 1.35em; color: #AAA; }
+
+	#showuser { padding-bottom: 1px; }
+		#user_recomm { position: relative; float: left; margin: 2px 1px 0 0; width: 318px; height: 151px; background: #F7F7F7; overflow: hidden; }
+			#user_recomm h2 { position: absolute; left: 15px; top: 15px; width: 36px; height: 120px; background: url(image/showuser_label.gif) no-repeat 0 0; text-indent: -9999px; z-index: 10; }
+			#user_recomm .s_avatar { float: left; padding: 15px 15px 15px 45px; }
+				#user_recomm .s_avatar a { display: block; width: 120px; height: 120px; background: #FFF; }
+				#user_recomm .s_avatar img { max-height:120px; max-width:120px; zoom: expression( function(elm) { if (elm.width > 180 || elm.height > 120 ){ if (elm.width>elm.height) { elm.width=120; } else{ elm.height=120; } } elm.style.zoom = '1'; }(this) ); }
+				.safari_hack { }
+			#user_recomm .s_cnts { padding: 15px 10px 15px 0; line-height: 1.8em; }
+				#user_recomm h3 { margin-bottom: 3px; font-weight: 700; }
+				#showuser hr { height: 0; border-top: 1px solid #D1D1D1; border-bottom: none; border-left: none; border-right: none; }
+		#user_wall { float: left; margin-top: 1px; width: 700px; background:#fff;}
+			#user_wall div { background: url(image/avatar_blank.png); }
+				#user_pay { height: 101px; margin-bottom: 1px; border-bottom: 1px solid #D1D1D1; }
+					#user_pay p { position: absolute; right: 0; bottom: 2px; width: 149px; height: 48px; background: #F7F7F7; }
+						#user_pay p a { display: block;  width: 148px; height: 48px; background: url(image/btn_reg.gif) no-repeat; text-indent: -9999px; overflow: hidden; }
+			#user_wall h2, #user_wall li { float: left; position: relative; display: inline; margin: 1px; width: 48px; height: 48px; }
+			#user_wall li img{ width:48px; height:48px;}
+				#user_wall h2 { margin-right: -6px; width: 55px; background: url(image/showuser_label.gif) no-repeat 0 -120px; z-index: 10; overflow: hidden; }
+					#user_pay h2 { background-position: 0 -168px; }
+						#user_wall h2 a { display: block; width: 48px; height: 48px; text-indent: -9999px; }
+				#user_wall li a { position: relative; width:48px; height:48px; display: block; }
+				#user_wall li a:hover img{ border:1px solid #ccc; padding:2px; width:42px; height:42px;}
+			#user_wall hr { margin: 1px 0 0 0; display: block; clear: both; }
+		#usertip_box { position: absolute; z-index: 999; margin-left: -2px; width: 200px; visibility: hidden; }
+			#usertip_box div { position: absolute; padding: 3px 6px; background: #000; color: #FFF; }
+	
+	#searchbar { line-height: 30px; vertical-align: middle; font-family: Tahoma, "sans-serif"; }
+		#searchbar * { vertical-align: middle; }
+	
+	.elist { padding: 10px 0 0 10px; height: 270px; line-height: 150%; overflow: hidden; background: white; }
+		.elist h3{ margin: 0 0 10px; }
+		.elist li{ float:left; margin: 0 10px 10px 0; width: 340px; line-height:20px;}
+		.eimage{ float: left; margin: 0 10px 20px 0; padding: 1px; width: 80px; height: 80px; background: #fff; border: 1px solid #e0e0e0; clear: left; overflow: hidden;}
+		.eimage a { width: 80px; height: 80px; display: table-cell; background: #eee; *display: block; *font-size: 37px; *font-family:Arial; text-align: center; vertical-align: middle; }	
+		.egz{ color: #EF9822;}
+	.slist { padding: 10px 0 0 10px; height: 542px; line-height: 150%; overflow: hidden; background: white; *position:relative; }
+		.slist li{ float:left; margin: 0 0 5px 0; width: 210px; padding-bottom:5px; border-bottom: 1px dashed #EEE; }
+		.simage{ float: left; margin: 10px 10px 10px 0; padding: 2px; width: 45px; height: 45px; background: #fff; border: 1px solid #e0e0e0; clear: left; overflow: hidden;}
+		.title{ background:none repeat scroll 0 0 #EEEEEE;padding:3px;}
+		.simage a { width: 42px; height: 42px; display: table-cell; background: #eee; *display: block; *font-size: 37px; *font-family:Arial; text-align: center; vertical-align: middle; }	
+		.slist .feed .detail{ padding-top:0;}
+	.npoll { height: 285px; padding: 10px; line-height: 1.8em; overflow: hidden; }
+			.npoll li { line-height:23px; width: 100%; background: url(image/dot.gif) no-repeat 0 49%; white-space: nowrap; text-indent: 10px; overflow: hidden; text-overflow: ellipsis; }
+				.npoll li.poll_0 { margin-bottom: 0px; padding: 10px 0 10px 85px; width: auto; height: auto; border-bottom: 1px solid #E1E1E1; background: url(image/poll_legend.gif) no-repeat 0 center; text-indent: 0; white-space: normal; line-height: 1.5em; font-weight: 700; }
+					.npoll li.poll_0 p { margin-top: 8px; }
+						.npoll li.poll_0 p a { color: #EF9822; font-weight: 400; }
+
+	.tlist { height: 311px; overflow: hidden; }
+		.tlist table{ width: 100%; }
+		.tlist td{ padding: 5px 10px; height: 20px; background: #fff; line-height: 20px; overflow: hidden; }
+		.tlist .color_row td{ background: #f7f7f7; }
+		
+	.ttopic { width: 395px; }
+	.ttop{ float: left; margin: 2px 0 0; width: 45px; font-size: 11px; color: #fff; }
+		.ttop div{ float: left; padding: 0 0 0 5px; height: 15px; background: url(image/ttop.gif) left bottom; line-height: 15px; }
+		.ttop div span{ float: left; padding: 0 5px 0 0; height: 15px; background: url(image/ttop.gif) right bottom; }
+		.a .ttop div{ background: url(image/ttop.gif) left top; }
+		.a .ttop div span{ background: url(image/ttop.gif) right top; }
+		.tuser img{ width: 16px; height: 16px; vertical-align: middle; }
+	
+.slist{ padding: 0 5px;}
+.slist .title{ background:none;}
+.slist .quote{ clear:both;}
+.bloglist .ttop{ float:right;}
+.bloglist li h3{ background:url(image/dot.gif) no-repeat left 6px; padding-left:10px;}
+.bloglist p.gray{ height:18px; overflow:hidden;}
+.tlist .ttop{ margin-right:5px;}
+#showuser{ background:#F7F7F7; padding:8px; width:706px;}
+#user_pay{ position:relative;}

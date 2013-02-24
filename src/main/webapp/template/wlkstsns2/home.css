@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+body, th, td, input, select, textarea, button { font: 12px/1.5em Microsoft YaHei,Verdana, "Lucida Grande", Arial, Helvetica, sans-serif; }
+body, h1, h2, h3, h4, h5, h6, p, ul, dl, dt, dd, form, fieldset { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 1em; }
+ul li { list-style: none; }
+select { margin-right: 2px; }
+.mb15{ margin-bottom:15px;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }
+/* Hide from IE Mac */
+.clearfix { display:block; }
+/* End hide from IE Mac */
+/* end of clearfix */
+a { color: #000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img { border: none; }
+
+body { background:url(image/background.jpg) no-repeat center top #DDEBF8 ; }
+.red{color:red;}
+.content{ background:#fff;}
+.content .mb15{ padding:0 9px;}
+.content .home_top{ padding-top:11px;}
+.home_show{ width:348px; height:230px; border:1px solid #b6e6f8;visibility:hidden;}
+.home_show img{ width:348px; height:230px;}
+
+.box1{}
+.box1_title{ background:url(image/bg_title_s.png) no-repeat left top; padding-left:2px;}
+.box1_title h3{ background:url(image/bg_title_s.png) no-repeat right top; padding-left:12px; line-height:28px; height:28px; color:#fff; font-size:12px;}
+.box1_title a{color:#fff;}
+.box1_main{ border:1px solid #b6e6f8; border-top:none;}
+.box2{}
+.box2_title{ background:url(image/bg_title_m.png) no-repeat left top; padding-left:2px;}
+.box2_title h3{ background:url(image/bg_title_m.png) no-repeat right top; padding-left:12px; line-height:28px; height:28px; color:#fff; font-size:12px;}
+.box2_title a{color:#fff;}
+.box2_main{ border:1px solid #b6e6f8; border-top:none;}
+.box1_title h3 span,.box2_title h3 span{ padding-right:10px;  vertical-align:middle; color:#fff; font-size:16px;font-weight:normal;}
+
+#sns_search{ width:338px; padding: 5px 5px 5px 5px; border: 1px solid #B6E7F8; margin-top: 10px;}
+
+#focus_news{ width:612px; height:240px;}
+.focus_news_top{ padding:8px; line-height:28px; margin-bottom:0;}
+.focus_news_top li{height:30px;overflow:hidden;}
+.focus_news_top a{padding:0 3px;}
+.focus_news_top a strong{ font-size:20px;}
+.focus_news_m{ padding:0 10px 10px 10px; height: 137px; overflow:hidden;}
+.focus_news_m li{height:24px;overflow:hidden;}
+.focus_news_m .l{ width:280px; font-size:12px; line-height:22px; display:inline; -width:280px;}
+.focus_news_m .r{ width:280px; font-size:12px; line-height:22px; display:inline; -width:280px;}
+
+.home_top2_l{ width:710px;}
+.home_top2_l .box1 ul{ padding:10px; line-height:24px; font-size:12px;}
+.home_top2_l .box1 ul a{ padding-right:5px;}
+
+.home_top2_r{ width:252px;}
+
+
+#industry_news{ margin-bottom:15px;}
+#industry_news ul li{height:24px;overflow:hidden;}
+
+#industry_news,#recommend_log{ width:350px; margin-right:10px;}
+#industry_news .box1_main,
+	#lively .box1_main,
+	#recommend_log .box1_main,
+	#hot_log .box1_main{ height:260px;overflow:hidden;}
+#industry_news ul,#lively ul,#hot_log ul{ height:230px;overflow:hidden;}
+#focus_news .box1_main{ height:275px;overflow:hidden;}
+#travel_up .box1_main{ height:292px;overflow:hidden;}
+#hot_log ul li{height:24px;overflow:hidden;}
+#lively,#hot_log{ width:350px;}
+
+#lively ul li{width:300px;height:38px;padding:4px 10px 5px 0;}
+#lively ul li img{width:80px;height:38px;}
+#lively ul li p{width:200px;height:38px; line-height:18px;overflow:hidden;}
+
+#recommend_log ul{ overflow:hidden; padding-top:5px; width:311px;height:230px;}
+#recommend_log ul li{height:24px;overflow:hidden;}
+.recommend_log_top{ overflow:hidden;  width:317px; margin-bottom:2px;}
+.recommend_log_top a{ display:block; width:74px; height:51px; float:left;}
+.recommend_log_top img{ display:block; width:74px; height:51px;}
+
+#new_activity { margin-bottom:0px;}
+#new_activity ul{ overflow:hidden; padding:10px; padding-bottom:0; height:554px;}
+#new_activity ul li{ overflow:hidden; height:110px;}
+#new_activity ul li a{ color:#355390;}
+#new_activity ul li .r{ width:150px; font-size: 0.9em;}
+
+#topuser { margin-bottom:0px;}
+#topuser ul{ overflow:hidden; padding:10px; padding-bottom:0; height:554px;}
+#topuser ul li{ overflow:hidden; height:93px;}
+#topuser ul li .eimage{ padding-right:10px;}
+
+#groups { margin-bottom:15px;}
+#groups ul{ overflow:hidden; padding:10px; padding-bottom:0; height:410px;}
+#groups ul li{ overflow:hidden; margin-bottom:10px; clear:both;}
+#groups ul li img{width:60px;height:60px;}
+#groups ul li .l{ width:76px;}
+#groups ul li .r{ width:135px; line-height:18px;}
+#groups ul li .r p{ height:44px; overflow:hidden;line-height:12px;}
+.btn_join{ display:block; background:url(image/bg_join.png) repeat-x; border:1px solid #DEA303; color:red; float:left; padding:0 20px;}
+
+.sns_tags{ border:1px solid #B6E7F8; padding:10px;}
+.sns_tags h3 a{ color:#0B69AF; font-size:16px; margin-bottom:10px;}
+.sns_tags_main{ height:89px;overflow:hidden;}
+.sns_tags_main a{ padding:0 5px; line-height:22px;}
+
+#travel_up{ width:252px;}
+#travel_up ul{ overflow:hidden; padding:10px; height:262px; }
+#travel_up ul li{float:left;width:50px;height:67px;text-align:center;padding:1px 4px 0 3px;overflow:hidden;}
+#travel_up ul li img{width:50px;height:50px;display:block;}
+
+#attractions{ width:710px;}
+#attractions .box2_main{ overflow:hidden; width:708px; height:292px;}
+#attractions .box2_main .l{ width:600px; padding:10px 0;padding-bottom:0; line-height:22px; height:278px;}
+#attractions .box2_main .l li{ float:left; width:140px;height:131px;text-align:center; margin-left:8px; display:inline; margin-bottom:10px;overflow:hidden;}
+#attractions .box2_main .l li img{width:140px;height:109px;}
+#attractions .box2_main .r{ width:88px; padding:10px 10px 0 0;}
+#attractions .box2_main .r li{ margin-bottom:14px;}
+#attractions .box2_main .r li img{width:88px;height:55px;}
+
+#video_share{ width:710px; margin-bottom:15px;}
+#video_share .vodio{width:546px;}
+#video_share .popularize{width:142px;}
+#video_share .box2_main{ overflow:hidden; width:708px; height:300px;}
+#video_share ul { padding:10px 0 0 10px; overflow:hidden; height:290px;}
+#video_share ul li{ float:left; margin-right:6px; margin-bottom:10px; display:inline;}
+#video_share ul li img{width:130px;height:100px;}
+#video_share ul li a{ display:block; position:relative; width:130px; height:99px;}
+#video_share ul li a span{ position:absolute; background:#000; filter:alpha(opacity=50);background:rgba(0,0,0,0.5); text-align:center; color:#fff; height:24px; bottom:0; left:0; width:130px;}
+#video_share ul li p{ padding:5px 0;width:130px;height:28px;overflow:hidden;}
+#video_share ul li p a{ display:inline; width:auto; height:auto;}
+
+#vote{ width:252px; margin-bottom:15px;}
+#vote .npoll{ padding:10px; height:280px;overflow:hidden;}
+#vote .npoll .poll_0{ background:url(image/poll_legend.gif) no-repeat left center; padding-left:70px; height:70px; overflow:hidden; border-bottom:1px solid #ECECEC; margin-bottom:10px;}
+#vote .npoll .poll_0 a{ color:#355390; display:block; margin-top:10px;height:24px;overflow:hidden;}
+#vote .npoll .poll_0 p a{ color:#F7AF22; display:inline; margin-top:0; line-height:20px;}
+#vote .npoll li{ background:url(image/dot.gif) no-repeat left center; text-indent:10px; line-height:20px;height:21px;overflow:hidden;}
+#vote .npoll li a{ color:#355390;}
+
+#doing{ width:252px; margin-bottom:15px;}
+#doing ul{ padding:10px; height:280px;overflow:hidden;}
+#doing ul li{ line-height:24px;height:24px;overflow:hidden;}
+#doing ul li a{ color:#355390;}
+
+.l{ float:left; display:inline;}
+.r{ float:right; display:inline;}
+
+@font-face {
+	font-family: 'IcoMoon';
+	src: url('fonts/IcoMoon.eot');
+	src: url('fonts/IcoMoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/IcoMoon.svg#IcoMoon') format('svg'),
+		url('fonts/IcoMoon.woff') format('woff'),
+		url('fonts/IcoMoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'IcoMoon';
+	content: attr(data-icon);
+	speak: none;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'IcoMoon';
+	font-style: normal;
+	speak: none;
+}
+.icon-fire:before {
+	content: "\0021";
+}
+.icon-user:before {
+	content: "\0022";
+}
+.icon-tag:before {
+	content: "\0023";
+}
+.icon-film:before {
+	content: "\0025";
+}
+.icon-copy:before {
+	content: "\0026";
+}
+.icon-newspaper:before {
+	content: "\0024";
+}
+.icon-diamond:before {
+	content: "\0027";
+}
+.icon-globe:before {
+	content: "\0028";
+}
+.icon-eye:before {
+	content: "\0029";
+}
+.icon-trophy:before {
+	content: "\002a";
+}
+.icon-price:before {
+	content: "\002b";
+}
+.icon-chart-alt:before {
+	content: "\002c";
+}
+.icon-document-stroke:before {
+	content: "\002d";
+}

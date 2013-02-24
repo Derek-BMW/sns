@@ -1,0 +1,59 @@
+/*
+[name]我的世界[/name]
+*/
+/* 全局 */
+body { padding:0 0 50px; background:url(images/top_bg.jpg) repeat-x center top; background-color:#3A4630; font-family:Verdana, Geneva, sans-serif; color:#c7c7c7; }
+body, th, td, input, select, textarea, button{ font-family:Verdana, Geneva, sans-serif;}
+#main { width: 900px; background: url(); }
+.showmessage { background:#424242; _background:#424242; color:#DDD; }
+/* 模块 */
+a { color:#D9D188; }
+h1, h2, h3, h4, #ubar h2, .title { color:#D7CF87; }
+.gray, .gray a { color:#C9C9C9; }
+.submit { background:#445333; color:#FFF; }
+.borderbox,#space_photo img,.avatar48 img,.magicavatar{ border:1px solid #3E5128;}
+.comments_list li,.line_list li,#spaceindex_name{ border-bottom:1px solid #3E5128;}
+#mood_statusinput{ background:none;}
+textarea,#mood_statusinput textarea{ border:1px solid #8C9458; background:#2E3D22; color:#D9D188;}
+.magicavatar{background:#2E3D22; }
+/* 头 */
+#header {background:url(images/top_w.png) no-repeat; width:1000px; }
+#header .headerwarp { background: none; height:135px; color:#D9D188;font-family:"微软雅黑";  }
+
+#header .space_head_title h1{ font-size: 2em; padding: 0 0 10px 0; color:#D9D188; font-weight:normal; }
+#header .space_head_title h1 a{ color:#D9D188 }
+#header .space_head_title p{ color:#D9D188; background-color:none; overflow: hidden;  }
+#header .space_head_title a{ color:#D9D188; }
+
+#header .headermenu { width:1000px; height:70px;background:url(images/lace_hd_ft.png) no-repeat left -43px; }
+#header .menu {padding: 30px 0 20px 55px; line-height:20px; margin:0 50px; background:url(images/top1.png) no-repeat left top;}
+#header .menu li a { color:#F3E374; font-size: 14px;}
+#header .menu li { border-left: 0px solid #fff; padding:0 10px; }
+
+/* 身 */
+.nav_topfixed #wrap{ background:none;}
+#wrap{ overflow:hidden;background:url(images/lace_repeat.png) repeat-y; width:900px; padding:0 50px;}
+#space_page #content{ width:670px;}
+#mainarea { width: 880px; }
+#space_page, #mainarea { background:none; }
+#spaceindex_note,.gray, .gray a,#space_mymenu em,.sidebox p.gray,#footer, #footer a,.comments_list .detail{ color:#C7C7C7;}
+/* 首页模块标题栏 */
+#ubar h2,
+#space_page .feed_header,
+#space_page .sidebox h2.title { padding: 0 10px; height: 30px; line-height: 30px; border-bottom: 1px solid #3E5128; color:#D7CF87; background-color:none; background-repeat:; background-position: ; background-image:url(); }
+/* 清除背景 */
+.ulist,
+.tabs_header,
+#space_page .feed li,
+#space_page .comments_list li,
+.tabs_header ul.tabs li.active a span,
+.tabs_header ul.tabs li a span { background: none; }
+/* 内容导航条 */
+.tabs_header ul.tabs li.active a {  color:#000; }
+.tabs_header ul.tabs li a { border: 1px solid #DDE5D9; border-bottom: none; background: #EFF3ED; color:#000; }
+.tabs_header ul.tabs li.null a { border: 0; }
+.tabs_header { height: 31px; }
+
+/* 脚 */
+#footer { background-color:none; width:1000px; margin:0 auto;background:url(images/lace_hd_ft.png) no-repeat right top; padding-top:125px; }
+#footer,#footer a { color:#C9C9C9;}

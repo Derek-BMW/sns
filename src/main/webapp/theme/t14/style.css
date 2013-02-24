@@ -1,0 +1,61 @@
+/*
+[name]红中国[/name]
+Powered by Ucenter Home
+*/
+/* 全局 */
+body { padding: 0 0 50px; background: url(images/body_bg.gif) fixed repeat left top; background-color: #000; color: #666; }
+.showmessage { background:#424242; _background:#424242; color:#DDD; }
+/* 模块 */
+a { color: #999; }
+h1, h2, h3, h4, #ubar h2, .title, .feedtime { color: #666; }
+.gray, .gray a { color: #999; }
+.submit,
+.tabs_header ul.tabs li.null,
+.tabs_header ul.tabs li.null a { background: #660b2c; color: #111; }
+/* 头 */
+#header { height: 200px; background-color:none; background-repeat: repeat-y; background-position: center top; background-image: url(); }
+#header .headerwarp { background: none; height:131px; }
+
+#header .space_head_title h1{ font-size: 2em; padding: 0 0 10px 0; color:#fff; }
+#header .space_head_title p{ color:#fff; background-color:none; max-height: 32px; overflow: hidden;  }
+#header .space_head_title a{ color:#fff; }
+
+#header .headermenu { background: none; height:30px; }
+#header .menu { width:990px; padding: 10px 0 10px 0; }
+#header .menu li a { color:#000; font-size: 1.4em; }
+#header .menu li { border-left:0; }
+
+/* 身 */
+#mainarea { width: 970px; }
+#space_page, #mainarea { background: #000; }
+
+a#i_rss { background-image: url(images/rss_icon.gif); color: #FC0; }
+
+.line_list li { border-color: #222; }
+.t_input, textarea { border-color: #222; background: #212121; color: #999; }
+.entry .title { background: #212121; }
+.post_doing textarea {background: #212121;}
+.affiche, .topic_list tbody tr.alt td { background: #212121; color: #999; }
+/* 首页模块标题栏 */
+#ubar h2,
+#share_ul .title,
+#space_page .feed_header,
+#space_page .sidebox h2.title { padding: 0 10px; height: 30px; border-bottom: 3px solid #222; background: #212121; color: #999; line-height: 30px; }
+/* 清除背景 */
+.ulist,
+.tabs_header,
+#space_page .feed li,
+#space_page .comments_list li,
+.tabs_header ul.tabs li.active a,
+.tabs_header ul.tabs li.active a span,
+.tabs_header ul.tabs li a span { background: none; }
+/* 内容导航条 */
+.tabs_header ul.tabs li { background:#eee; }
+.tabs_header ul.tabs li.active a { color:#000; }
+.tabs_header ul.tabs li a { border: 1px solid #222; border-bottom: none; background: #bdbdbd; color:#000; }
+.tabs_header ul.tabs li.null a { border: 0; }
+.tabs_header { height: 31px; }
+
+/* 脚 */
+#footer { background-color: none; margin: 10px auto 0; }
+#footer,#footer a { color:#FC0;}

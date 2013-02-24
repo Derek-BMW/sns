@@ -1,0 +1,54 @@
+/*
+[name]黑夜星光[/name]
+*/
+/* 全局 */
+body { padding:0 0 50px; background:url(images/top_bg.jpg) repeat-x center top; background-color:#000; font-family:Verdana, Geneva, sans-serif; color:#BCB5AD; }
+body, th, td, input, select, textarea, button{ font-family:Verdana, Geneva, sans-serif;}
+#main { background: url(); }
+.showmessage { background:#424242; _background:#424242; color:#DDD; }
+/* 模块 */
+a { color:#B5783E; }
+h1, h2, h3, h4, #ubar h2, .title { color:#B5783E; }
+.gray, .gray a { color:#999; }
+.submit { background:#634833; color:#FFF; }
+.borderbox,#space_photo img,.avatar48 img{ border:1px solid #47362A;}
+.comments_list li,.line_list li{ border-bottom:1px solid #47362A;}
+/* 头 */
+#header { height:300px; background-color:none; background-repeat:repeat; background-position:center top; background-image:url(); }
+#header .headerwarp { background: none; height:231px; color:#B5783E;font-family:"微软雅黑";  }
+
+#header .space_head_title h1{ font-size: 2em; padding: 0 0 10px 0; color:#B5783E; font-weight:normal; }
+#header .space_head_title h1 a{ color:#B5783E }
+#header .space_head_title p{ color:#B5783E; background-color:none; overflow: hidden;  }
+#header .space_head_title a{ color:#B5783E; }
+
+#header .headermenu { background: url() repeat-x   ; height:40px; }
+#header .menu { width:990px; padding: 10px 0 20px 0; }
+#header .menu li a { color:#F1C163; font-size: 14px; font-family:"微软雅黑"; }
+#header .menu li { border-left: 0px solid #fff; }
+
+/* 身 */
+.nav_topfixed #wrap{ background:none;}
+#mainarea { width: 970px; }
+#space_page, #mainarea { background:none; }
+#spaceindex_note,.gray, .gray a,#space_mymenu em,.sidebox p.gray,#footer, #footer a{ color:#BCB5AD;}
+/* 首页模块标题栏 */
+#ubar h2,
+#space_page .feed_header,
+#space_page .sidebox h2.title { padding: 0 10px; height: 30px; line-height: 30px; border-bottom: 1px solid #47362A; color:#BCB5AD; background-color:none; background-repeat:; background-position: ; background-image:url(); }
+/* 清除背景 */
+.ulist,
+.tabs_header,
+#space_page .feed li,
+#space_page .comments_list li,
+.tabs_header ul.tabs li.active a span,
+.tabs_header ul.tabs li a span { background: none; }
+/* 内容导航条 */
+.tabs_header ul.tabs li.active a {  color:#000; }
+.tabs_header ul.tabs li a { border: 1px solid #DDE5D9; border-bottom: none; background: #EFF3ED; color:#000; }
+.tabs_header ul.tabs li.null a { border: 0; }
+.tabs_header { height: 31px; }
+
+/* 脚 */
+#footer { background-color:none; margin: 10px auto 0; }
+#footer,#footer a { color:#666;}
