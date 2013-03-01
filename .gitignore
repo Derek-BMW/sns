@@ -4,4 +4,4 @@
 /.classpath
 .DS_Store
 /.project
-/info.log
+/info.log*
