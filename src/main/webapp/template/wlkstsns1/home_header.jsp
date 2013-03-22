@@ -7,9 +7,8 @@
  <title>${navtitle}<c:if test="${not empty sNames[space.uid]}">${sNames[space.uid]} - </c:if>${sConfig.sitename}</title>
  <meta http-equiv="content-type" content="text/html; charset=${snsConfig.charset}" />
  <meta http-equiv="x-ua-compatible" content="ie=7" />
- <meta property="qc:admins" content="24512666676413636654" />
- <meta name="keywords" content="武隆旅游|印象武隆|天生三桥|仙女山|芙蓉洞|武隆旅游网|武隆|武隆仙女山|武隆酒店|武隆自驾|武隆自驾游|武隆特产|重庆武隆|重庆旅游|武隆旅游官网" />
- <meta name="description" content="重庆武隆旅游官网喀斯特旅游区为世界自然遗产和国家AAAAA级旅游区,下有天生三桥、芙蓉洞、仙女山、印象武隆、芙蓉江、龙水峡地缝等景区" />
+ <meta name="keywords" content="旅游网">
+ <meta name="description" content="旅游网">
  <script language="javascript" type="text/javascript" src="source/script_plug.js"></script>
  <style type="text/css">
   @import url(template/${sConfig.template}/style.css);

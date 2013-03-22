@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.build.finalName>ROOT</project.build.finalName>
+		<project.build.finalName>sns</project.build.finalName>
 	</properties>
 
 	<profiles>
@@ -25,6 +25,17 @@
 				<sns.jdbc.dbPw>85394444</sns.jdbc.dbPw>
 				<sns.jdbc.dbName>sns</sns.jdbc.dbName>
                 <com.cdtskj.sso.filter.enabled>true</com.cdtskj.sso.filter.enabled>
+			</properties>
+		</profile>
+		<profile>
+			<id>prod-tmw</id>
+			<properties>
+				<sns.jdbc.dbHost>localhost</sns.jdbc.dbHost>
+				<sns.jdbc.dbPort>3306</sns.jdbc.dbPort>
+				<sns.jdbc.dbUser>root</sns.jdbc.dbUser>
+				<sns.jdbc.dbPw>111111</sns.jdbc.dbPw>
+				<sns.jdbc.dbName>sns</sns.jdbc.dbName>
+                <com.cdtskj.sso.filter.enabled>false</com.cdtskj.sso.filter.enabled>
 			</properties>
 		</profile>
 		<profile>

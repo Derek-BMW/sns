@@ -6,13 +6,13 @@
 
 <div class="d_content" id="note">
 		<div class="notice">
-			<h2>成为武隆景区票的代理商</h2>
-			<p>你可以通过很简单的方式让你的网站成为武隆旅游网电子商务网站的代理商，在成为二级代理商之前请先阅读协议。</p>
+			<h2>成为旅游网景区门票的代理商</h2>
+			<p>你可以通过很简单的方式让你的网站成为旅游网电子商务网站的代理商，在成为二级代理商之前请先阅读协议。</p>
 		</div>
 		<table cellspacing="6" cellpadding="0" width="100%">
 			<tr>
 				<td>
-					如果你要成为武隆旅游网电子商务网站的二级代理商，请仔细阅读下面的协议：
+					如果你要成为旅游网电子商务网站的二级代理商，请仔细阅读下面的协议：
 					<textarea name="css" style="width: 98%;" rows="20" readonly="readonly">
 						协议起草中
 					</textarea>
@@ -30,7 +30,7 @@
 
 <div class="d_content" id="code" style="display:none;">
 		<div class="notice">
-			<h2>如何武隆景区票的代理商</h2>
+			<h2>如何成为旅游网景区门票的代理商</h2>
 		</div>
 		<table cellspacing="6" cellpadding="0" width="100%" border="10">
 			<tr>

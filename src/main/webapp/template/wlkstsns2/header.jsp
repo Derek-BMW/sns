@@ -59,10 +59,10 @@
 		<span style="float:left;">
     		<c:choose>
    			<c:when test="${sCookie.currentsite eq 'space'}">
-   			<span class="logo_small"><a href="http://www.lysns.net">旅游社区</a></span>
+   			<span class="logo_small"><a href="/sns">旅游社区</a></span>
    			</c:when>
    			<c:otherwise>
-   			<a href="http://store.wlkst.com">电子商务</a>
+   			<a href="/store">在线商店</a>
    			</c:otherwise>
   			</c:choose>
    			<c:if test="${sGlobal.supe_uid>0}">

@@ -42,7 +42,7 @@
 <div class="nav_topfixed">
 	<div id="wrap">
 		<span style="float:left;">
-   			<a href="http://store.wlkst.com">电子商务</a>
+   			<a href="/store">网上商店</a>
    			<c:if test="${sGlobal.supe_uid>0}">
     		<a href="zone.action?do=home">个人中心</a>
     		<a href="zone.action">我的主页</a>
